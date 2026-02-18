@@ -49,8 +49,10 @@ linear development feels primitive.
 ---
 
 **Also available as:**
-[HTML](https://mib.lpmwfx.com) |
+[HTML (.com)](https://mib.lpmwfx.com) |
+[HTML (.eu)](https://mib.lpmwfx.eu) |
 [PDF](https://github.com/articles-lpmwfx/mib-series/releases/latest) |
-[Repository](https://github.com/articles-lpmwfx/mib-series) |
+[GitHub](https://github.com/articles-lpmwfx/mib-series) |
+[Codeberg](https://codeberg.org/Articles-lpmwfx/mib-series) |
 [SHA256](https://github.com/articles-lpmwfx/mib-series/blob/main/SHA256SUMS) |
-[Feedback](https://github.com/articles-lpmwfx/mib-series/issues)
+[Feedback](https://codeberg.org/Articles-lpmwfx/mib-series/issues)

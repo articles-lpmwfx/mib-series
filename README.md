@@ -4,7 +4,8 @@ A 12-part article series on recursive, multi-agent AI:DevOps methodology.
 
 ## Read Online
 
-**[mib.lpmwfx.com](https://mib.lpmwfx.com)**
+- **[mib.lpmwfx.com](https://mib.lpmwfx.com)** (GitHub Pages)
+- **[mib.lpmwfx.eu](https://mib.lpmwfx.eu)** (Codeberg Pages)
 
 ## Articles
 
@@ -25,9 +26,14 @@ A 12-part article series on recursive, multi-agent AI:DevOps methodology.
 
 ## Formats
 
-- **HTML** — responsive web with dark/light theme at [mib.lpmwfx.com](https://mib.lpmwfx.com)
+- **HTML** — responsive web with dark/light theme
 - **PDF** — styled download via [GitHub Releases](https://github.com/articles-lpmwfx/mib-series/releases)
 - **Markdown** — source files in `article/`
+
+## Repositories
+
+- **GitHub**: [articles-lpmwfx/mib-series](https://github.com/articles-lpmwfx/mib-series)
+- **Codeberg**: [Articles-lpmwfx/mib-series](https://codeberg.org/Articles-lpmwfx/mib-series)
 
 ## Integrity
 
@@ -35,7 +41,7 @@ SHA256 checksums for all formats in [SHA256SUMS](SHA256SUMS).
 
 ## Feedback
 
-Open an [issue](https://github.com/articles-lpmwfx/mib-series/issues).
+Open an [issue on Codeberg](https://codeberg.org/Articles-lpmwfx/mib-series/issues).
 
 ## Author
 
