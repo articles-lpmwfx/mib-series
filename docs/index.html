@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="lpmwfx, Denmark, EU" />
+  <meta name="description" content="Introducing Mega Iterative Brewing — a recursive, multi-agent AI:DevOps methodology built around structured iteration, deliberate MVP cutoffs, and systematic learning transfer between projects." />
+  <title>mib-series</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="theme-toggle" aria-label="Theme switcher">
+  <button onclick="setTheme('light')" title="Light">&#9788;</button>
+  <button onclick="setTheme('dark')" title="Dark">&#9790;</button>
+  <button onclick="setTheme('system')" title="System">&#9881;</button>
+</div>
+<nav class="article-nav">
+  <a href="https://github.com/articles-lpmwfx/mib-series/releases/latest">&#128196; PDF</a>
+  <a href="https://github.com/articles-lpmwfx/mib-series/tree/main/article">&#128221; Markdown</a>
+  <a href="https://github.com/articles-lpmwfx/mib-series">&#128193; Repository</a>
+  <a href="SHA256SUMS">&#128274; SHA256</a>
+  <a href="https://github.com/articles-lpmwfx/mib-series/issues">&#128172; Feedback</a>
+</nav>
+<header id="title-block-header">
+<h1 class="title">mib-series</h1>
+<p class="author">lpmwfx, Denmark, EU</p>
+<p class="date">18.02.2026</p>
+</header>
+<h1 id="what-is-mega-iterative-brewing">What Is Mega Iterative
+Brewing?</h1>
+<p>Software development has entered a new phase. AI is no longer just an
+assistant that writes snippets of code. It can now act as architect,
+critic, implementer, analyst, and even organizational memory. Yet most
+teams still use AI linearly:</p>
+<blockquote>
+<p>prompt → generate → fix → repeat</p>
+</blockquote>
+<p>Mega Iterative Brewing proposes a fundamentally different model.</p>
+<p>MIB is a recursive, multi-agent, AI-augmented DevOps methodology
+built around structured iteration, deliberate MVP cutoffs, and
+systematic learning transfer between projects.</p>
+<p>It is not about building one perfect system. It is about evolving
+systems — and evolving the process that builds them.</p>
+<p>MIB treats development itself as a design object.</p>
+<h2 id="three-layers">Three Layers</h2>
+<p>MIB is difficult to grasp because it operates on three layers
+simultaneously:</p>
+<ol type="1">
+<li>The <strong>product layer</strong> — the software being built</li>
+<li>The <strong>process layer</strong> — how the software is built</li>
+<li>The <strong>meta-process layer</strong> — how the building process
+evolves</li>
+</ol>
+<p>Most methodologies optimize layer 1. Some optimize layer 2. MIB
+explicitly engineers layer 3.</p>
+<p>The output is not just better code. The output is a refined
+developmental intelligence.</p>
+<h2 id="why-now">Why Now</h2>
+<p>MIB becomes viable only when:</p>
+<ul>
+<li>AI can reason about architecture, not just syntax.</li>
+<li>CLI coders can autonomously manipulate repositories.</li>
+<li>Documentation can be regenerated cheaply.</li>
+<li>Iteration cost approaches zero.</li>
+</ul>
+<p>This moment did not exist five years ago.</p>
+<h1 id="multi-agent-roles">Multi-Agent Roles</h1>
+<p>Instead of using one AI for everything, MIB assigns functional roles.
+Each role has a distinct purpose, a distinct perspective, and a distinct
+output.</p>
+<h2 id="architect-ai">Architect AI</h2>
+<p>Designs paradigms, constraints, system boundaries, and project
+documents.</p>
+<ul>
+<li>Defines modular runtime architectures.</li>
+<li>Specifies separation rules between UI, Core, and IO layers.</li>
+<li>Produces structured markdown specifications.</li>
+</ul>
+<p>The Architect AI thinks in abstractions and invariants.</p>
+<h2 id="cli-coder-ais">CLI Coder AI(s)</h2>
+<p>Implements concrete code inside repositories.</p>
+<ul>
+<li>Generates backend modules.</li>
+<li>Writes UI scaffolding.</li>
+<li>Refactors dependency trees.</li>
+</ul>
+<p>CLI Coders operate close to the compiler and filesystem. They are
+execution agents.</p>
+<h2 id="analysis-ai">Analysis AI</h2>
+<p>Reviews codebases and extracts structural insight.</p>
+<ul>
+<li>Detects architectural drift.</li>
+<li>Identifies implicit coupling.</li>
+<li>Generates “architecture reality” documentation from actual
+source.</li>
+</ul>
+<p>This role is critical. It prevents illusion. It answers: <em>What did
+we actually build?</em></p>
+<h2 id="refinement-ai">Refinement AI</h2>
+<p>Feeds structural insight back into the paradigm.</p>
+<ul>
+<li>Proposes improved abstraction boundaries.</li>
+<li>Suggests block standardization.</li>
+<li>Simplifies adapter patterns.</li>
+</ul>
+<p>Refinement AI closes the recursive loop.</p>
+<h1 id="the-recursive-loop">The Recursive Loop</h1>
+<p>A typical MIB cycle looks like this:</p>
+<div class="diagram">
+<pre class="mermaid" data-src="Zmxvd2NoYXJ0IFRECiAgICBBW1BhcmFkaWdtIERlc2lnbl0gLS0+fEFyY2hpdGVjdCBBSXwgQltJbXBsZW1lbnRhdGlvbl0KICAgIEIgLS0+fENMSSBDb2RlciBBSXwgQ1tBbmFseXNpc10KICAgIEMgLS0+fEFuYWx5c2lzIEFJfCBEW1JlZmxlY3Rpb24gJiBSZWZpbmVtZW50XQogICAgRCAtLT58UmVmaW5lbWVudCBBSXwgRXtNVlAgU3RvcD99CiAgICBFIC0tPnxObzogbW9yZSB0byBsZWFybnwgQQogICAgRSAtLT58WWVzOiBkaW1pbmlzaGluZyBpbnNpZ2h0fCBGW0tub3dsZWRnZSBUcmFuc2Zlcl0KICAgIEYgLS0+fFJlZmluZWQgcGFyYWRpZ218IEdbTmV4dCBQcm9qZWN0XQogICAgRyAtLT4gQQoKICAgIHN0eWxlIEEgZmlsbDojMjU2M2ViLGNvbG9yOiNmZmYsc3Ryb2tlOiMxZDRlZDgKICAgIHN0eWxlIEIgZmlsbDojMjU2M2ViLGNvbG9yOiNmZmYsc3Ryb2tlOiMxZDRlZDgKICAgIHN0eWxlIEMgZmlsbDojMjU2M2ViLGNvbG9yOiNmZmYsc3Ryb2tlOiMxZDRlZDgKICAgIHN0eWxlIEQgZmlsbDojMjU2M2ViLGNvbG9yOiNmZmYsc3Ryb2tlOiMxZDRlZDgKICAgIHN0eWxlIEUgZmlsbDojZjU5ZTBiLGNvbG9yOiMwMDAsc3Ryb2tlOiNkOTc3MDYKICAgIHN0eWxlIEYgZmlsbDojMTBiOTgxLGNvbG9yOiNmZmYsc3Ryb2tlOiMwNTk2NjkKICAgIHN0eWxlIEcgZmlsbDojMTBiOTgxLGNvbG9yOiNmZmYsc3Ryb2tlOiMwNTk2Njk="></pre>
+</div>
+<h2 id="step-1-paradigm-design">Step 1 — Paradigm Design</h2>
+<p>The Architect AI designs constraints and produces documentation.</p>
+<p>Deliverable: Structured design documents.</p>
+<h2 id="step-2-implementation">Step 2 — Implementation</h2>
+<p>CLI Coders build an implementation aligned with the spec.</p>
+<p>Deliverable: Running codebase.</p>
+<h2 id="step-3-analysis">Step 3 — Analysis</h2>
+<p>Analysis AI inspects the real code and extracts structural
+patterns.</p>
+<p>Deliverable: Observational report.</p>
+<h2 id="step-4-reflection-and-refinement">Step 4 — Reflection and
+Refinement</h2>
+<p>Architect AI ingests the analysis and adjusts the paradigm.</p>
+<p>Deliverable: Updated meta-model.</p>
+<h2 id="step-5-intentional-mvp-stop">Step 5 — Intentional MVP Stop</h2>
+<p>Development stops deliberately.</p>
+<p>Not because it is finished. But because further iteration would
+optimize features rather than understanding.</p>
+<h2 id="step-6-knowledge-transfer">Step 6 — Knowledge Transfer</h2>
+<p>The refined paradigm becomes the baseline for the next project.</p>
+<p>Each cycle raises the abstraction floor.</p>
+<h1 id="a-concrete-scenario">A Concrete Scenario</h1>
+<p>Imagine building a modular cross-platform runtime.</p>
+<h2 id="iteration-1">Iteration 1</h2>
+<p>Goal: Prove modular loading works.</p>
+<p>Result:</p>
+<ul>
+<li>Dynamic module loading achieved.</li>
+<li>Architectural documentation incomplete.</li>
+<li>Coupling discovered between UI and Core.</li>
+</ul>
+<p>Stop at MVP. Extract learning: Coupling patterns must be formally
+restricted.</p>
+<h2 id="iteration-2">Iteration 2</h2>
+<p>New constraint added: Adapters must isolate shared state.</p>
+<p>Result:</p>
+<ul>
+<li>Cleaner separation.</li>
+<li>Reduced mutation leaks.</li>
+<li>Improved mental model.</li>
+</ul>
+<p>Stop again. Extract learning: Adapter generation should be
+automated.</p>
+<h2 id="iteration-3">Iteration 3</h2>
+<p>Introduce automated adapter synthesis via structured maps.</p>
+<p>Result:</p>
+<ul>
+<li>System coherence improves.</li>
+<li>Architectural entropy drops.</li>
+</ul>
+<p>The product evolves. But more importantly, the design intelligence
+evolves.</p>
+<h1 id="deliberate-mvp-termination">Deliberate MVP Termination</h1>
+<p>Stopping early is counterintuitive.</p>
+<p>Traditional development rewards feature expansion. MIB rewards
+structural clarity.</p>
+<p>MVP stop criteria may include:</p>
+<ul>
+<li>Architecture understood.</li>
+<li>Core invariants tested.</li>
+<li>Concept proven.</li>
+<li>Diminishing architectural learning.</li>
+</ul>
+<p>Continuing beyond this point often produces:</p>
+<ul>
+<li>Feature bloat</li>
+<li>Accidental complexity</li>
+<li>Cognitive fatigue</li>
+</ul>
+<p>MIB prevents this by treating over-optimization as structural
+noise.</p>
+<h2 id="the-illusion-of-progress">The Illusion of Progress</h2>
+<p>Feature growth feels like progress.</p>
+<p>Architectural clarity feels slow.</p>
+<p>This is the central psychological trap in modern development.</p>
+<p>When AI is introduced, the trap intensifies:</p>
+<ul>
+<li>AI can generate features instantly.</li>
+<li>The dopamine cycle accelerates.</li>
+<li>Structural thinking becomes optional.</li>
+</ul>
+<p>MIB intentionally slows this down.</p>
+<p>It asks:</p>
+<blockquote>
+<p>What did we <em>learn structurally</em>?</p>
+</blockquote>
+<p>If the answer is “not much,” iteration continues. If the answer is “a
+paradigm shifted,” iteration stops.</p>
+<p>Progress is measured in abstraction shifts — not commit count.</p>
+<h1 id="the-brewing-metaphor">The Brewing Metaphor</h1>
+<p>Brewing is fermentation under controlled conditions.</p>
+<p>You do not force flavor. You refine conditions.</p>
+<p>Each project is a batch. Each iteration is fermentation. Each
+post-mortem analysis improves the recipe.</p>
+<p>Brewing requires patience and discipline. So does MIB.</p>
+<h1 id="mib-and-prior-art">MIB and Prior Art</h1>
+<p>MIB overlaps with:</p>
+<ul>
+<li>PDCA (Plan-Do-Check-Act)</li>
+<li>OODA (Observe-Orient-Decide-Act)</li>
+<li>Extreme Programming (XP)</li>
+<li>Evolutionary Architecture</li>
+</ul>
+<p>But differs in two key dimensions:</p>
+<ol type="1">
+<li><strong>AI role specialization</strong> instead of single-agent
+prompting.</li>
+<li><strong>Recursive learning transfer between projects.</strong></li>
+</ol>
+<p>Traditional DevOps optimizes pipelines. MIB optimizes
+epistemology.</p>
+<h2 id="a-mental-model-shift">A Mental Model Shift</h2>
+<p>Traditional mindset:</p>
+<blockquote>
+<p>Build product → optimize → maintain.</p>
+</blockquote>
+<p>MIB mindset:</p>
+<blockquote>
+<p>Build system → extract pattern → refine paradigm → repeat.</p>
+</blockquote>
+<p>The product is temporary. The paradigm compounds.</p>
+<p>This inversion changes everything.</p>
+<h1 id="structural-entropy-and-why-most-projects-decay">Structural
+Entropy and Why Most Projects Decay</h1>
+<p>Every software system accumulates entropy.</p>
+<p>Not because developers are careless. But because systems evolve
+faster than their mental models.</p>
+<p>In traditional workflows:</p>
+<ul>
+<li>Documentation drifts.</li>
+<li>Architecture degrades.</li>
+<li>Implicit assumptions multiply.</li>
+<li>Technical debt becomes invisible until it is expensive.</li>
+</ul>
+<p>MIB introduces a counter-force:</p>
+<p><strong>Intentional architectural re-alignment through recursive
+analysis.</strong></p>
+<p>Entropy is not eliminated. It is periodically distilled.</p>
+<p>The difference is profound.</p>
+<p>In normal DevOps, entropy is paid down. In MIB, entropy is studied
+and converted into structural intelligence.</p>
+<h2 id="the-strategic-advantage">The Strategic Advantage</h2>
+<p>Why does this matter?</p>
+<p>Because AI reduces the cost of iteration close to zero.</p>
+<p>When iteration cost approaches zero, the limiting factor becomes
+structural clarity.</p>
+<p>MIB optimizes for clarity under high iteration velocity.</p>
+<p>Organizations that master this will:</p>
+<ul>
+<li>Prototype faster</li>
+<li>Abandon dead directions earlier</li>
+<li>Converge on robust architectures</li>
+<li>Accumulate durable internal knowledge</li>
+</ul>
+<p>The competitive edge shifts from speed to recursive intelligence.</p>
+<h1 id="compounding-knowledge-across-projects">Compounding Knowledge
+Across Projects</h1>
+<p>Most methodologies reset learning at project boundaries.</p>
+<p>MIB does the opposite.</p>
+<p>Each project becomes:</p>
+<ul>
+<li>A testbed for structural hypotheses.</li>
+<li>A controlled experiment in abstraction.</li>
+<li>A container for architectural discovery.</li>
+</ul>
+<p>When the MVP stop occurs, the extracted learning becomes:</p>
+<ul>
+<li>New constraints</li>
+<li>New invariants</li>
+<li>New design heuristics</li>
+<li>New AI prompts and role definitions</li>
+</ul>
+<p>The next project begins at a higher baseline.</p>
+<p>Over 10, 20, 30 cycles, the difference becomes dramatic.</p>
+<p>This is not linear improvement. It is compounded architectural
+intelligence.</p>
+<h2 id="the-meta-outcome">The Meta-Outcome</h2>
+<p>The true product of MIB is not code.</p>
+<p>It is:</p>
+<ul>
+<li>Increased architectural intuition</li>
+<li>Compounded design knowledge</li>
+<li>Faster abstraction cycles</li>
+<li>A continuously improving development discipline</li>
+</ul>
+<p>Eventually, the process itself becomes the primary asset.</p>
+<h1 id="mib-for-the-solo-developer">MIB for the Solo Developer</h1>
+<p>MIB is particularly powerful for solo builders.</p>
+<p>A single human paired with 2-4 AI agents can simulate:</p>
+<ul>
+<li>Architect</li>
+<li>Reviewer</li>
+<li>Implementer</li>
+<li>Analyst</li>
+<li>Technical writer</li>
+</ul>
+<p>This creates a multiplicative effect.</p>
+<p>Instead of context switching mentally, the solo developer
+orchestrates role switching externally.</p>
+<p>The human becomes:</p>
+<p><strong>Intent custodian.</strong></p>
+<p>The AI agents become:</p>
+<p><strong>Execution and reflection amplifiers.</strong></p>
+<p>The result is asymmetric leverage.</p>
+<h2 id="discipline-and-common-misunderstandings">Discipline and Common
+Misunderstandings</h2>
+<p><strong>MIB is not:</strong></p>
+<ul>
+<li>Random AI experimentation</li>
+<li>Prompt engineering gymnastics</li>
+<li>Infinite iteration without discipline</li>
+</ul>
+<p><strong>MIB requires:</strong></p>
+<ul>
+<li>Structured roles</li>
+<li>Clear stop conditions</li>
+<li>Honest analysis</li>
+<li>Versioned documentation</li>
+</ul>
+<p>Without discipline, recursion collapses into chaos.</p>
+<h1 id="when-mib-fails">When MIB Fails</h1>
+<p>Recursive systems can destabilize.</p>
+<p>Common failure modes include:</p>
+<h2 id="endless-iteration">Endless Iteration</h2>
+<p>No clear MVP stop criteria leads to fatigue.</p>
+<p>The loop runs without producing insight. Activity replaces
+architecture.</p>
+<h2 id="over-documentation">Over-Documentation</h2>
+<p>Spec drift caused by speculative abstraction.</p>
+<p>Documentation grows faster than understanding. Maps become more
+complex than the territory.</p>
+<h2 id="role-collapse">Role Collapse</h2>
+<p>One AI performing all roles leads to loss of structural tension.</p>
+<p>The architect and the implementer must disagree. The analyst must be
+brutally honest. Without distinct perspectives, the loop produces
+echo.</p>
+<h2 id="illusion-of-alignment">Illusion of Alignment</h2>
+<p>Assuming implementation matches design without running the analysis
+phase.</p>
+<p>This is the most dangerous failure mode. It feels like progress while
+the system drifts.</p>
+<p>MIB only works if roles are distinct and the loop is respected.</p>
+<p>Discipline is non-negotiable.</p>
+<h1 id="recursive-development-intelligence">Recursive Development
+Intelligence</h1>
+<p>When AI participates in:</p>
+<ul>
+<li>Design</li>
+<li>Implementation</li>
+<li>Analysis</li>
+<li>Refinement</li>
+</ul>
+<p>The development process becomes partially self-reflective.</p>
+<p>For the first time in software history:</p>
+<p>The system that builds systems can observe itself.</p>
+<p>That is the true threshold MIB crosses.</p>
+<p>We are no longer just building software.</p>
+<p>We are engineering recursive development intelligence.</p>
+<hr />
+<p>Mega Iterative Brewing is not about speed.</p>
+<p>It is about structural evolution.</p>
+<p>It is not about replacing developers.</p>
+<p>It is about amplifying architectural thought through recursive AI
+specialization.</p>
+<p>It requires discipline. It rewards patience. It compounds
+insight.</p>
+<p>And once you experience the difference, linear development feels
+primitive.</p>
+<hr />
+<p><strong>Also available as:</strong> <a
+href="https://mib.lpmwfx.com">HTML</a> | <a
+href="https://github.com/articles-lpmwfx/mib-series/releases/latest">PDF</a>
+| <a href="https://github.com/articles-lpmwfx/mib-series">Repository</a>
+| <a
+href="https://github.com/articles-lpmwfx/mib-series/blob/main/SHA256SUMS">SHA256</a>
+| <a
+href="https://github.com/articles-lpmwfx/mib-series/issues">Feedback</a></p>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+
+  function isDark() {
+    const theme = document.documentElement.getAttribute('data-theme');
+    if (theme === 'dark') return true;
+    if (theme === 'light') return false;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+  }
+  
+  function decodeMermaidSources() {
+    document.querySelectorAll('.mermaid[data-src]').forEach(el => {
+      el.textContent = atob(el.getAttribute('data-src'));
+    });
+  }
+
+  function initMermaid(dark) {
+    mermaid.initialize({
+      startOnLoad: false,
+      theme: dark ? 'dark' : 'default',
+      flowchart: { useMaxWidth: true, htmlLabels: true }
+    });
+    document.querySelectorAll('.mermaid[data-processed]').forEach(el => {
+      el.removeAttribute('data-processed');
+      el.innerHTML = '';
+    });
+    decodeMermaidSources();
+    mermaid.run();
+  }
+
+  window.setTheme = function(theme) {
+    if (theme === 'system') {
+      document.documentElement.removeAttribute('data-theme');
+      localStorage.removeItem('theme');
+    } else {
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+    }
+    updateToggle();
+    
+    initMermaid(isDark());
+  };
+
+  function updateToggle() {
+    const current = localStorage.getItem('theme') || 'system';
+    document.querySelectorAll('.theme-toggle button').forEach((btn, i) => {
+      const themes = ['light', 'dark', 'system'];
+      btn.classList.toggle('active', themes[i] === current);
+    });
+  }
+
+  // Apply saved theme on load
+  const saved = localStorage.getItem('theme');
+  if (saved) document.documentElement.setAttribute('data-theme', saved);
+  updateToggle();
+
+  // Listen for system theme changes
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+    if (!localStorage.getItem('theme')) {
+      
+    initMermaid(isDark());
+    }
+  });
+
+  initMermaid(isDark());
+</script>
+</body>
+</html>
