@@ -7,53 +7,36 @@ series: "MIB — Mega Iterative Brewing"
 part: 11
 description: "Failure modes of recursive AI development — endless iteration, over-documentation, role collapse, and the illusion of alignment."
 ---
-
 # When MIB Fails
 
-Recursive systems can destabilize.
+Recursive systems can destabilize in the blink of an eye.
 
-Common failure modes include:
+Here’s how the collapse happens:
 
 ## Endless Iteration
 
-No clear MVP stop criteria leads to fatigue.
-
-The loop runs without producing insight.
-Activity replaces architecture.
+Without a clear MVP stop criteria, fatigue sets in fast. The loop keeps spinning, but nothing meaningful emerges. Soon, mere activity *feels* like progress—while the architecture rots in the background.
 
 ## Over-Documentation
 
-Spec drift caused by speculative abstraction.
+Spec drift loves speculative abstraction.
 
-Documentation grows faster than understanding.
-Maps become more complex than the territory.
+The problem begins when documentation races ahead of real understanding. Before you know it, the map becomes more convoluted than the territory it was supposed to simplify.
 
 ## Role Collapse
 
-One AI performing all roles leads to loss of structural tension.
+What if one AI handles every role? Structural tension disappears entirely.
 
-The architect and the implementer must disagree.
-The analyst must be brutally honest.
-Without distinct perspectives, the loop produces echo.
+Healthy systems *need* friction—architects and implementers must push back against each other. The analyst’s job? Unfiltered, brutal honesty. Without distinct perspectives, the loop devolves into a hollow echo chamber.
 
 ## Illusion of Alignment
 
-Assuming implementation matches design without running the analysis phase.
+Design and implementation look perfect on paper.
+Skip the analysis phase, though, and progress becomes a mirage.
 
-This is the most dangerous failure mode.
-It feels like progress while the system drifts.
+This is the most dangerous failure mode of all.
+It *looks* like forward motion—while the system quietly veers off course.
 
-MIB only works if roles are distinct and the loop is respected.
+MIB only works when roles stay distinct and the loop is respected.
 
-Discipline is non-negotiable.
-
----
-
-**Also available as:**
-[HTML (.com)](https://mib.lpmwfx.com) |
-[HTML (.eu)](https://mib.lpmwfx.eu) |
-[PDF](https://github.com/articles-lpmwfx/mib-series/releases/latest) |
-[GitHub](https://github.com/articles-lpmwfx/mib-series) |
-[Codeberg](https://codeberg.org/Articles-lpmwfx/mib-series) |
-[SHA256](https://github.com/articles-lpmwfx/mib-series/blob/main/SHA256SUMS) |
-[Feedback](https://codeberg.org/Articles-lpmwfx/mib-series/issues)
+Discipline isn’t just important. It’s the only thing that matters.

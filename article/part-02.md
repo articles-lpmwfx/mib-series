@@ -7,51 +7,45 @@ series: "MIB — Mega Iterative Brewing"
 part: 2
 description: "How MIB assigns functional roles to multiple AI agents — architect, coder, analyst, and refinement — instead of using one AI for everything."
 ---
+Here’s the restructured version with natural flow while preserving all content and structure:
+
+---
 
 # Multi-Agent Roles
 
-Instead of using one AI for everything, MIB assigns functional roles. Each role has a distinct purpose, a distinct perspective, and a distinct output.
+MIB avoids relying on a single AI for everything. Instead, it distributes tasks across specialized roles—each with a clear purpose, unique perspective, and defined output.
 
 ## Architect AI
 
-Designs paradigms, constraints, system boundaries, and project documents.
+This agent shapes the system’s foundational paradigms, constraints, and boundaries while maintaining project documentation.
 
-- Defines modular runtime architectures.
-- Specifies separation rules between UI, Core, and IO layers.
-- Produces structured markdown specifications.
+Under its direction, modular runtime architectures take form. It enforces strict separation between UI, Core, and IO layers. The result? Clean, structured markdown specifications.
 
-The Architect AI thinks in abstractions and invariants.
+Its focus? Abstractions and invariants.
 
 ## CLI Coder AI(s)
 
-Implements concrete code inside repositories.
+These agents transform abstract plans into working code within repositories.
 
-- Generates backend modules.
-- Writes UI scaffolding.
-- Refactors dependency trees.
+Backend modules materialize. UI scaffolding takes shape. Dependency trees get streamlined.
 
-CLI Coders operate close to the compiler and filesystem. They are execution agents.
+Working directly with the compiler and filesystem, CLI Coders handle execution.
 
 ## Analysis AI
 
-Reviews codebases and extracts structural insight.
+Here, codebases undergo deep examination to reveal their true structure.
 
-- Detects architectural drift.
-- Identifies implicit coupling.
-- Generates "architecture reality" documentation from actual source.
+Architectural drift stands exposed. Hidden coupling comes to light. Documentation emerges—not as wishful thinking, but as a reflection of the actual code.
 
-This role is critical. It prevents illusion.
-It answers: *What did we actually build?*
+This role cuts through assumptions. *What did we really build?* The answer lives here.
 
 ## Refinement AI
 
-Feeds structural insight back into the paradigm.
+This agent loops structural insights back into the system’s design.
 
-- Proposes improved abstraction boundaries.
-- Suggests block standardization.
-- Simplifies adapter patterns.
+Proposed changes sharpen abstraction boundaries. Standardized blocks enter the conversation. Adapter patterns simplify complexity.
 
-Refinement AI closes the recursive loop.
+With Refinement AI, the cycle completes.
 
 ---
 
