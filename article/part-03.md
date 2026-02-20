@@ -9,27 +9,27 @@ description: "A detailed walkthrough of the MIB recursive loop — from paradigm
 ---
 # The Recursive Loop
 
-Ever wondered how a standard MIB cycle actually unfolds? Here’s the breakdown:
+Ever curious about how a standard MIB cycle actually functions? Here’s the breakdown:
 
 ![MIB recursive loop](../assets/mib-loop.png)
 
 ## Step 1 — Paradigm Design
-Architect AI takes charge at this stage, crafting constraints and documentation. What emerges are meticulously structured design documents—ready for implementation.
+During this phase, Architect AI leads the way. Precision guides its efforts as it constructs constraints and documentation, shaping them into meticulously structured design documents—fully prepared for implementation.
 
 ## Step 2 — Implementation
-Next up, CLI Coders step in to bring the spec to life. Their work yields a fully operational codebase.
+CLI Coders enter the picture next. Their mission? Turning those specifications into a dynamic, functional codebase. What emerges is fully operational software.
 
 ## Step 3 — Analysis
-With code in place, Analysis AI takes over. This specialized system examines the implementation, pinpointing structural patterns and compiling them into a detailed observational report.
+With the code in place, Analysis AI steps in. This system examines every detail, uncovering structural patterns that become the foundation of a thorough observational report.
 
 ## Step 4 — Reflection and Refinement
-Insights in hand, Architect AI revisits the paradigm. Adjustments follow, informed by real-world data. The outcome? A refined meta-model—sharper and more closely aligned with actual needs.
+Armed with new insights, Architect AI revisits the paradigm. Real-world data informs adjustments, refining the meta-model to better match actual requirements.
 
 ## Step 5 — Intentional MVP Stop
-Development halts here, but not because the work is complete. Over-optimizing features risks sacrificing deeper understanding, so this pause is deliberate.
+Development pauses here—but deliberately. Chasing perfection too early can cloud deeper understanding, making this break essential.
 
 ## Step 6 — Knowledge Transfer
-Now, the refined paradigm becomes the foundation for what follows. Each cycle elevates the abstraction floor, building on everything that came before.
+Now, the refined paradigm serves as the foundation for future cycles. Each iteration raises the abstraction floor, building on everything that came before.
 
 ---
 

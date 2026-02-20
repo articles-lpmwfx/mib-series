@@ -7,7 +7,7 @@ series: "MIB — Mega Iterative Brewing"
 part: 2
 description: "How MIB assigns functional roles to multiple AI agents — architect, coder, analyst, and refinement — instead of using one AI for everything."
 ---
-Here’s the restructured version with natural flow while preserving all content and structure:
+Here’s the corrected version:
 
 ---
 
@@ -19,7 +19,7 @@ MIB avoids relying on a single AI for everything. Instead, it distributes tasks 
 
 This agent shapes the system’s foundational paradigms, constraints, and boundaries while maintaining project documentation.
 
-Under its direction, modular runtime architectures take form. It enforces strict separation between UI, Core, and IO layers. The result? Clean, structured markdown specifications.
+Under its direction, modular runtime architectures take form. It enforces strict separation between UI, core, and IO layers. The result? Clean, structured markdown specifications.
 
 Its focus? Abstractions and invariants.
 
@@ -57,3 +57,5 @@ With Refinement AI, the cycle completes.
 [Codeberg](https://codeberg.org/Articles-lpmwfx/mib-series) |
 [SHA256](https://github.com/articles-lpmwfx/mib-series/blob/main/SHA256SUMS) |
 [Feedback](https://codeberg.org/Articles-lpmwfx/mib-series/issues)
+
+---

@@ -20,9 +20,9 @@ Several recurring patterns appear across traditional workflows:
 - Implicit assumptions multiply unchecked
 - Technical debt remains invisible until it becomes costly
 
-Here, MIB introduces a counter-force to this natural decay:
+Here, MIB introduces a counterforce to this natural decay:
 
-**Intentional architectural re-alignment through recursive analysis.**
+**Intentional architectural realignment through recursive analysis.**
 
 While complete elimination of entropy isn't possible, periodic distillation keeps it in check.
 
